@@ -22,17 +22,17 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a href="home">Home</a></li>
-      <li>
-        <a href="About">About us</a>   
-      </li>
+      <li><a href="Home">Home</a></li>
+      <li><a href="About">About us</a></li>
       <li><a href="registration">Registration</a></li>
       <li><a href="Dashboard">Dashboard</a></li>
-      <li><a href="Login">Login</a></li>
+      {/* <li><a href="Login">Login</a></li> */}
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button new</a>
+    {/* <Link to="/Login" className="btn">Login</Link> */}
+    <a className="btn">Log In</a>
+    <a className="btn">Register</a>
   </div>
 </div>
     );
